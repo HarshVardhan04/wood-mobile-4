@@ -1,0 +1,43 @@
+#container h1 {
+    color: rgb(255, 136, 0);
+    text-align: center;
+    font-family: auto;
+}
+
+.photos {
+    margin-left: 14%;
+}
+
+.photos img {
+    width: 82%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0 {
+    margin-top: 45px;
+    color: rgb(255, 136, 0);
+    border: solid 1px rgb(255, 136, 0);
+    border-radius: 7px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+}
+
+.nav-link.active:hover {
+    color: rgb(255, 136, 0);
+    border: solid 1px rgb(255, 136, 0);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px gray;
+    transition: 0.5s;
+}
+
+#read-more {
+    margin-top: 20px;
+    color: rgb(255, 136, 0);
+    border: solid 1px rgb(255, 136, 0);
+}

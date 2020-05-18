@@ -1,0 +1,267 @@
+#swd {
+    text-align: center;
+    font-family: auto;
+    color: rgb(255, 136, 0);
+    margin-top: 25px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0 {
+    margin-top: 45px;
+    color: rgb(255, 136, 0);
+    border: solid 1px rgb(255, 136, 0);
+    border-radius: 7px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+}
+
+.nav-link.active:hover {
+    color: rgb(255, 136, 0);
+    border: solid 1px rgb(255, 136, 0);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px gray;
+    transition: 0.5s;
+}
+
+.the-italic {
+    text-align: center;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.l-1 {
+    width: 277px;
+}
+
+.l-2 {
+    width: 332px;
+}
+
+.l-3 {
+    width: 363px;
+}
+
+.measure {
+    list-style: none;
+}
+
+.first {
+    margin: 0px;
+    justify-content: space-around;
+    margin-top: 45px
+}
+
+.define-1 {
+    color: rgb(255, 136, 0);;
+}
+
+.define-2 {
+    color: rgb(255, 136, 0);;
+}
+
+.define-3 {
+    color: rgb(255, 136, 0);;
+}
+
+.choose {
+    padding-left: 20px;
+}
+
+.features {
+    padding-left: 20px;
+}
+
+.specifications {
+    padding-left: 20px;
+}
+
+.image-1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.panel {
+    width: 60%;
+}
+
+.panel:hover {
+    transform: scale(1.4);
+    box-shadow: 0px 0px 14px 0px;
+    transition: 0.5s;
+}
+
+.view {
+    margin: 0px;
+    background-image: url(https://4kwallpaper.wiki/wp-content/uploads/2019/07/137480.jpg);
+}
+
+.social {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0px 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+
+.social i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.social:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.social::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.social:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+#last {
+    background-color: #2b2b2b;
+    position: relative;
+}
+
+.follow {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 176px;
+}
+
+.mail {
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: -52%;
+}
+
+.contact {
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left:50%;
+    margin-top: -68px;
+}
+
+.number {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 50%;
+}
+
+.email {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 50%;
+}
+
+.website {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 50%;
+    margin-top: -27px;
+}
+
+
+.address {
+    color: white;
+    width: 31%;
+    font-size: 23px;
+    margin-left: 59%;
+    margin-top: -314px;
+}
+
+.line {
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 136, 0);
+    margin: -46px auto;
+}
+
+.white-logo {
+    width: 14%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 13px;
+}
+
+.form {
+    position: absolute;
+    color: white;
+    margin-left: 8%;
+    width: 33%;
+    margin-top: 21px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.harsh {
+    padding-top: 10px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.harsh li {
+    padding: 0 2px;
+}
+
+#copyright {
+    background-color: #212121;
+}
+
+.the-black {
+    text-align: center;
+}
+
+
+
+
+
+
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }50%{
+        left: 10%;
+        top: -30%;
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}
